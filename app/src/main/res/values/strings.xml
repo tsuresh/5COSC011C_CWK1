@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Guess Ma Breed</string>
+    <string name="identify_the_breed">Identify the Breed</string>
+    <string name="identify_the_dog">Identify the Dog</string>
+    <string name="search_dog_breeds">Search Dog Breeds</string>
+    <string name="dog_breed_detector">Dog Breed Detector</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="choose_breed">Please choose the dog breed and press submit</string>
+    <string name="correct">CORRECT!</string>
+    <string name="wrong">WRONG!</string>
+    <string name="already_choice">You have already made a choice, press next to try again.</string>
+    <string name="stop">Stop</string>
+    <string name="enter_breed">Enter the dog breed</string>
+    <string name="breed_not_found">The breed you enteted is not found</string>
+    <string name="empty_input">Your input cannot be empty</string>
+    <string name="seconds_remaining">You have %d seconds to answer</string>
+    <string name="times_up">Your time is up!</string>
+    <string name="select_option">Please select an option</string>
+    <string name="turn_on_countdown">Turn on countdown?</string>
+    <string name="choose_dog">Choose the correct dog</string>
+</resources>

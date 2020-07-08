@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_padding"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginBottom="@dimen/element_margin_bottom"
+            android:src="@drawable/breed_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="@font/psans_regular"
+            android:text="@string/select_option"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnIdBreed"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="@dimen/home_btn_width"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/psans_regular"
+            android:text="@string/identify_the_breed" />
+
+        <Button
+            android:id="@+id/btnIdDog"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="@dimen/home_btn_width"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/psans_regular"
+            android:text="@string/identify_the_dog" />
+
+        <Button
+            android:id="@+id/btnSearchDog"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="@dimen/home_btn_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/element_margin_bottom"
+            android:fontFamily="@font/psans_regular"
+            android:text="@string/search_dog_breeds" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/psans_regular"
+            android:text="@string/turn_on_countdown"
+            android:textSize="@dimen/small_text" />
+
+        <Switch
+            android:id="@+id/tgOnCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IdentifyDog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/layout_padding"
+        android:paddingTop="20dp"
+        android:paddingRight="@dimen/layout_padding"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/tvCountdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/element_margin_bottom"
+            android:fontFamily="@font/psans_bold"
+            android:text="@string/seconds_remaining"
+            android:textSize="@dimen/large_text" />
+
+        <TextView
+            android:id="@+id/tvDogBreed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/element_margin_bottom"
+            android:fontFamily="@font/psans_bold"
+            android:text="Dog breed"
+            android:textColor="@color/colorBlue"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="@font/psans_regular"
+            android:text="@string/choose_dog"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/ivBreed1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="@dimen/element_margin_bottom"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/ivBreed2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="@dimen/element_margin_bottom"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/ivBreed3"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="@dimen/element_margin_bottom"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/element_margin_bottom"
+            android:fontFamily="@font/psans_regular"
+            android:text="@string/next" />
+
+        <TextView
+            android:id="@+id/tvAnswerState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/psans_bold"
+            android:text="Wrong Answer!!!"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</ScrollView>
